@@ -1,8 +1,8 @@
 {
-    "name":"bright-cloud-studio/add-user-fields",
-    "description":"Adds two custom user fields, image and bio, so they can be displayed on News posts and elsewhere",
+    "name":"bright-cloud-studio/name-of-package",
+    "description":"Description of your package",
     "homepage": "http://brightcloudstudio.com/",
-    "keywords":["contao", "add", "user", "fields"],
+    "keywords":["tags", "for", "package", "contao"],
     "type":"contao-module",
     "license":"LGPL-3.0-or-later",
     "authors":[
@@ -21,14 +21,14 @@
     "autoload": {
         "psr-4": {
             "Bcs\\": [
-                "system/modules/add_user_fields/library/Bcs"
+                "system/modules/name-of-repo/library/Bcs"
             ]
         }
     },
     "extra": {
         "contao": {
             "sources": {
-                "system/modules/add_user_fields": "system/modules/add_user_fields"
+                "system/modules/name-of-repo": "system/modules/name_of_repo"
             }
         }
     },
