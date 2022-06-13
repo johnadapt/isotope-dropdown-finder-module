@@ -1,5 +1,5 @@
 {
-    "name":"bright-cloud-studio/isotope-dropdown-finder-module",
+    "name":"john-adapt/isotope-dropdown-finder-module",
     "description":"Contao Isotope Dropdown Finder Module that allows you to select from isotope attributes to build a dropdown, and select the results page.",
     "homepage": "http://brightcloudstudio.com/",
     "keywords":["contao", "isotope", "attribute", "dropdown", "finder", "module"],
