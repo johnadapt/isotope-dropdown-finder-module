@@ -1,8 +1,8 @@
 {
-    "name":"bright-cloud-studio/name-of-package",
-    "description":"Description of your package",
+    "name":"bright-cloud-studio/isotope-dropdown-finder-module",
+    "description":"Contao Isotope Dropdown Finder Module that allows you to select from isotope attributes to build a dropdown, and select the results page.",
     "homepage": "http://brightcloudstudio.com/",
-    "keywords":["tags", "for", "package", "contao"],
+    "keywords":["contao", "isotope", "attribute", "dropdown", "finder", "module"],
     "type":"contao-module",
     "license":"LGPL-3.0-or-later",
     "authors":[
@@ -13,7 +13,8 @@
     ],
     "require":{
         "php": "^8.0",
-        "contao/core-bundle": "^4.13"
+        "contao/core-bundle": "^4.13",
+            "isotope/isotope-core": ">=2.8"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
@@ -21,14 +22,14 @@
     "autoload": {
         "psr-4": {
             "Bcs\\": [
-                "system/modules/name-of-repo/library/Bcs"
+                "system/modules/isotope-dropdown-finder-module/library/Bcs"
             ]
         }
     },
     "extra": {
         "contao": {
             "sources": {
-                "system/modules/name-of-repo": "system/modules/name_of_repo"
+                "system/modules/isotope-dropdown-finder-module": "system/modules/isotope-dropdown-finder-module"
             }
         }
     },

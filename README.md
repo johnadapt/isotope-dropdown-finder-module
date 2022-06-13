@@ -1,5 +1,6 @@
-# Bright Cloud Studio's Contao Package Basics
-## This repo has only the most basic files necessary to create a custom Contao package. Fork or copy everything here to get started on your own.
+# Bright Cloud Studio's Contao Isotope Dropdown Finder Module
+## Contao Isotope Dropdown Finder Module.
 
-- This is another line in the readme
+- Select from iso attributes fro drop downs
+- Select results page
 
